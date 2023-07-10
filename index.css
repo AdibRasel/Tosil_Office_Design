@@ -1,0 +1,139 @@
+*{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 95%;
+    /* height: auto; */
+    margin: auto;
+    padding: 0;
+    background-image: url(../Tosil_Office/main_background_img.jpg);
+
+      /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/* top header  */
+.top_header{
+    /* height: 50px; */
+    background-color: #099f19;
+    color:white;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.top_right{
+    float:right
+}
+
+.top_left{
+    float:left 
+}
+/* end top header  */
+
+/* header 2 */
+.header_2{
+    background-color: #eefbea;
+    overflow: hidden;
+    padding: 20px;
+    opacity: 0.75;
+}
+
+/* header 2 right  */
+.header_2_right{
+    float: right;
+}
+.header_2_right img{
+    width: 260px;
+    padding-top: 10px;
+
+}
+/* end header 2 right */
+
+/* header 2 left  */
+.header_2_left{
+    float: left;
+}
+.header_2_left img{
+    width:100px;
+    display: inline;
+}
+.header_2_left h1{
+    display: inline;
+    font-size: 50px;
+}
+/* end header 2 left  */
+
+
+/* menu  */
+.menu{
+    /* position: fixed; */
+}
+
+
+.menu nav{
+    background-color: #099f19;
+    /* opacity: 0.75; */
+    /* text-shadow: 2px 2px 2px #444; */
+    
+}
+.menu nav:hover{
+    color:black
+}
+
+
+.menu nav a{
+    color:white
+}
+.menu nav button{
+    color:white
+}
+
+.dropdown-menu{
+    background-color: #099f19;
+}
+
+/* end menu  */
+
+/* home image  */
+.row{
+    width: 95%;
+    margin: auto;
+}
+.card{
+    background: #ffffffb5;
+}
+.col-sm{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-img-top{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    border-radius: 50px;
+}
+.card-body{
+    text-align: center;
+}
+/* end home image  */
+
+
+/* top button  */
+.back_to_top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    /* display: none; */
+}
+/* end top button  */
+
+

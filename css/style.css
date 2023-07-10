@@ -1,0 +1,64 @@
+.Design_Template{
+    background-color: white;
+    padding: 10px;
+    /* text-align: center; */
+    border-radius: 10px;
+}
+.Design_Template_border{
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 20px;
+}
+.sub_title{
+    margin-top: 15px;
+}
+
+.Background_Design{
+    background-image: url("../image/Design.jpg");
+    width: 5in;
+    height: 4in;
+    background-size: cover;
+}
+
+.Design_Box{
+    position: relative;
+}
+
+
+
+.Print_Text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* top: 27px;
+    left: 35px; */
+}
+
+.Title_Print{
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.SubTitle_Print{
+    text-align: center;
+    margin: -7px;
+}
+
+.Person{
+    margin-top: 96px;
+    font-size: 40px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.Person_Title{
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.Person_Mobile{
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+}
