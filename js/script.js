@@ -13,10 +13,10 @@ function Submit(){
 
 
     // show 
-    document.getElementById("Sub_Title_One_Show").innerHTML = Title_One;
-    document.getElementById("Sub_Title_Two_Show").innerHTML = Title_Two;
-    document.getElementById("Sub_Title_Three_Show").innerHTML = Title_Three;
-    document.getElementById("Sub_Title_Four_Show").innerHTML = Title_Four;
+    document.getElementById("Title_One_Show").innerHTML = Title_One;
+    document.getElementById("Title_Two_Show").innerHTML = Title_Two;
+    document.getElementById("Title_Three_Show").innerHTML = Title_Three;
+    document.getElementById("Title_Four_Show").innerHTML = Title_Four;
 
     document.getElementById("Sub_Title_One_Show").innerHTML = Sub_Title_One;
     document.getElementById("Sub_Title_Two_Show").innerHTML = Sub_Title_Two;
