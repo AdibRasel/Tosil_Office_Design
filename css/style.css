@@ -32,23 +32,27 @@
 .Print_Text{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 40px;
     /* top: 27px;
     left: 35px; */
 }
 
+.SubTitle_Print{
+    text-align: center;
+    /* margin-left: 40px; */
+    margin: -7px;
+    font-size: 25px;
+}
+
 .Title_Print{
-    margin-left: 40px;
+    /* margin-left: 40px; */
     
     margin-top: 35px;
     font-size: 30px;
     font-weight: bold;
 }
 
-.SubTitle_Print{
-    text-align: center;
-    margin: -7px;
-}
+
 
 .Person{
     margin-top: 96px;
