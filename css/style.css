@@ -3,6 +3,7 @@
     padding: 10px;
     /* text-align: center; */
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 .Design_Template_border{
     border-radius: 10px;
@@ -22,6 +23,8 @@
 
 .Design_Box{
     position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -36,8 +39,9 @@
 
 .Title_Print{
     margin-left: 40px;
+    
     margin-top: 35px;
-    font-size: 70px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -61,4 +65,16 @@
     margin-left: 40px;
     font-size: 17px;
     font-weight: bold;
+}
+
+
+.button button{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Print_Section{
+    /* width: 11.69in;
+    height:  8.27in; */
+
 }

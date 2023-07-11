@@ -121,11 +121,11 @@
               <div class="col-md-6 Design_Template_border">
                 <div class="title">
                     নাম: <br>
-                    <input type="text" placeholder="নাম" class="form-control">
+                    <input type="text" placeholder="নাম" id="Title_One" class="form-control">
                 </div>
                 <div class="sub_title">
                     টাইটেল: <br>
-                    <input type="text" placeholder="টাইটেল" class="form-control">
+                    <input type="text" placeholder="টাইটেল" id="Sub_Title_One" class="form-control">
                 </div>
               </div>
 
@@ -133,11 +133,11 @@
               <div class="col-md-6 Design_Template_border">
                 <div class="">
                     নাম: <br>
-                    <input type="text" placeholder="নাম" class="form-control">
+                    <input type="text" placeholder="নাম" id="Title_Two" class="form-control">
                 </div>
                 <div class="sub_title">
                     টাইটেল: <br>
-                    <input type="text" placeholder="টাইটেল" class="form-control">
+                    <input type="text" placeholder="টাইটেল" id="Sub_Title_Two" class="form-control">
                 </div>
               </div>
 
@@ -152,11 +152,11 @@
                 <div class="col-md-6 Design_Template_border">
                   <div class="title">
                       নাম: <br>
-                      <input type="text" placeholder="নাম" class="form-control">
+                      <input type="text" placeholder="নাম" id="Title_Three" class="form-control">
                   </div>
                   <div class="sub_title">
                       টাইটেল: <br>
-                      <input type="text" placeholder="টাইটেল" class="form-control">
+                      <input type="text" placeholder="টাইটেল" id="Sub_Title_Three" class="form-control">
                   </div>
                 </div>
   
@@ -164,18 +164,21 @@
                 <div class="col-md-6 Design_Template_border">
                   <div class="">
                       নাম: <br>
-                      <input type="text" placeholder="নাম" class="form-control">
+                      <input type="text" placeholder="নাম" id="Title_Four" class="form-control">
                   </div>
                   <div class="sub_title">
                       টাইটেল: <br>
-                      <input type="text" placeholder="টাইটেল" class="form-control">
+                      <input type="text" placeholder="টাইটেল" id="Sub_Title_Four" class="form-control">
                   </div>
                 </div>
   
             </div>
 
-
-
+            <div class="button">
+              <button onclick="Submit()" class="btn btn-success">Submit</button>
+              <button onclick="Print('Print_Section')" class="btn btn-outline-success">Print</button>
+            </div>
+    
 
         </div>
 
@@ -183,18 +186,18 @@
     </section>
 
 
-    <section class="Print_Section">
+    <section class="Print_Section" id="Print_Section">
         <div class="row">
             <div class="col-md-6 ">
                 <div class="Design_Box">
                     <img src="./image/Design.jpg" class="img-fluid" alt="">
                     <div class="Print_Text">
-                        <h1 class="Title_Print">রাসেল হোসাইন</h1>
-                        <h3 class="SubTitle_Print">ব্যাংক এশিয়া শাহাপুর</h3>
+                        <h1 class="Title_Print" id="Title_One_Show" ></h1>
+                        <h3 class="SubTitle_Print" id="Sub_Title_One_Show"></h3>
 
-                        <div class="Person">মিজানুর রহমান</div>
+                        <!-- <div class="Person">মিজানুর রহমান</div>
                         <div class="Person_Title">সাহাপুর ইউনিয়ন ভূমি অফিস</div>
-                        <div class="Person_Mobile">০১৯০০০০০০০০</div>
+                        <div class="Person_Mobile">০১৯০০০০০০০০</div> -->
                     </div>
                 </div>
             </div>
@@ -204,12 +207,12 @@
                     <div class="Design_Box">
                         <img src="./image/Design.jpg" class="img-fluid" alt="">
                         <div class="Print_Text">
-                            <h1 class="Title_Print">রাসেল হোসাইন</h1>
-                            <h3 class="SubTitle_Print">ব্যাংক এশিয়া শাহাপুর</h3>
+                            <h1 class="Title_Print" id="Title_Two_Show" ></h1>
+                            <h3 class="SubTitle_Print" id="Sub_Title_Two_Show"></h3>
     
-                            <div class="Person">মিজানুর রহমান</div>
+                            <!-- <div class="Person">মিজানুর রহমান</div>
                             <div class="Person_Title">সাহাপুর ইউনিয়ন ভূমি অফিস</div>
-                            <div class="Person_Mobile">০১৯০০০০০০০০</div>
+                            <div class="Person_Mobile">০১৯০০০০০০০০</div> -->
                         </div>
                     </div>
                 </div>
@@ -224,12 +227,12 @@
                 <div class="Design_Box">
                     <img src="./image/Design.jpg" class="img-fluid" alt="">
                     <div class="Print_Text">
-                        <h1 class="Title_Print">রাসেল হোসাইন</h1>
-                        <h3 class="SubTitle_Print">ব্যাংক এশিয়া শাহাপুর</h3>
+                        <h1 class="Title_Print" id="Title_Three_Show" ></h1>
+                        <h3 class="SubTitle_Print" id="Sub_Title_Three_Show"></h3>
 
-                        <div class="Person">মিজানুর রহমান</div>
+                        <!-- <div class="Person">মিজানুর রহমান</div>
                         <div class="Person_Title">সাহাপুর ইউনিয়ন ভূমি অফিস</div>
-                        <div class="Person_Mobile">০১৯০০০০০০০০</div>
+                        <div class="Person_Mobile">০১৯০০০০০০০০</div>  -->
                     </div>
                 </div>
             </div>
@@ -239,12 +242,12 @@
                     <div class="Design_Box">
                         <img src="./image/Design.jpg" class="img-fluid" alt="">
                         <div class="Print_Text">
-                            <h1 class="Title_Print">রাসেল হোসাইন</h1>
-                            <h3 class="SubTitle_Print">ব্যাংক এশিয়া শাহাপুর</h3>
+                            <h1 class="Title_Print" id="Title_Four_Show" ></h1>
+                            <h3 class="SubTitle_Print" id="Sub_Title_Four_Show"></h3>
     
-                            <div class="Person">মিজানুর রহমান</div>
+                            <!-- <div class="Person">মিজানুর রহমান</div>
                             <div class="Person_Title">সাহাপুর ইউনিয়ন ভূমি অফিস</div>
-                            <div class="Person_Mobile">০১৯০০০০০০০০</div>
+                            <div class="Person_Mobile">০১৯০০০০০০০০</div> -->
                         </div>
                     </div>
                 </div>
